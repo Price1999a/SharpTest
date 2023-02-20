@@ -8,4 +8,8 @@ public class A {
     public void pubf1() {
         prif1(0);
     }
+
+    public A pubf2() {
+        return this;
+    }
 }

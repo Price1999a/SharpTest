@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Hello world!");
         Main main = new Main();
         main.a.pubf1();
+        main.a2.pubf2().pubf2().pubf1();
         new Main().a2.pubf1();
     }
 }
