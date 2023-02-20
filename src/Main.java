@@ -14,6 +14,7 @@ public class Main {
         if (main.a instanceof B) {
             ((B) main.a).setRe(false);
         }
+        mainPrivateFunc();
     }
 
     private static void mainPrivateFunc() {
