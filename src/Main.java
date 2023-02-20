@@ -15,4 +15,10 @@ public class Main {
             ((B) main.a).setRe(false);
         }
     }
+
+    private static void mainPrivateFunc() {
+        Main main = new Main();
+        main.a = main.a2;
+        main.a.pubf2().pubf2().pubf2();
+    }
 }
