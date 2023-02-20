@@ -11,5 +11,8 @@ public class Main {
         main.a.pubf1();
         main.a2.pubf2().pubf2().pubf1();
         new Main().a2.pubf1();
+        if (main.a instanceof B) {
+            ((B) main.a).setRe(false);
+        }
     }
 }
