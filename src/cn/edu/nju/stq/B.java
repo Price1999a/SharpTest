@@ -5,9 +5,11 @@ public class B extends A {
 
     @Override
     public void pubf1() {
-        super.pubf1();
-        if (re)
-            this.pubf1();
+        synchronized (pubf2()) {
+            super.pubf1();
+            if (re)
+                this.pubf1();
+        }
     }
 
     public void setRe(boolean re) {
