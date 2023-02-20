@@ -1,6 +1,8 @@
 import cn.edu.nju.stq.A;
 import cn.edu.nju.stq.B;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Main {
     A a = new B();
     A a2 = new A();
@@ -21,5 +23,18 @@ public class Main {
         Main main = new Main();
         main.a = main.a2;
         main.a.pubf2().pubf2().pubf2();
+        AtomicInteger x = new AtomicInteger();
+        Thread thread = new Thread(() -> {
+            synchronized (main.a) {
+                x.getAndIncrement();
+            }
+        });
+        thread.start();
+        try {
+            thread.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("private static void mainPrivateFunc() done!");
     }
 }
