@@ -28,12 +28,12 @@ public class Main {
     }
 
     private static void mainPrivateFunc() {
-        Main main = new Main();
+        final Main main = new Main();
         main.a = main.a2;
         main.a.pubf2().pubf2().pubf2();
         AtomicInteger x = new AtomicInteger();
         Thread thread = new Thread(() -> {
-            synchronized (main.a) {
+            synchronized (main) {
                 x.getAndIncrement();
             }
         });
