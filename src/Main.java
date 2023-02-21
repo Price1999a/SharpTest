@@ -22,7 +22,7 @@ public class Main {
         mainPrivateFunc();
 //        mainFuncAboutC();
         c.setCa(main.a.pubf2());
-        main.a.pubf2().pubf1();
+//        main.a.pubf2().pubf1();
         main.a = c.getCa();
     }
 
