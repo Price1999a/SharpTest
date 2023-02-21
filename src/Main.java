@@ -40,4 +40,9 @@ public class Main {
         }
         System.out.println("private static void mainPrivateFunc() done!");
     }
+
+    public static void mainFuncAboutC() {
+        A a1 = c.getCa();
+        c.setCa(new B());
+    }
 }
