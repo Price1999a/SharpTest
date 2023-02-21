@@ -20,6 +20,7 @@ public class Main {
             ((B) main.a).setRe(false);
         }
         mainPrivateFunc();
+        mainFuncAboutC();
     }
 
     private static void mainPrivateFunc() {
