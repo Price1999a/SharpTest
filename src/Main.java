@@ -20,7 +20,7 @@ public class Main {
             ((B) main.a).setRe(false);
         }
         mainPrivateFunc();
-        mainFuncAboutC();
+//        mainFuncAboutC();
     }
 
     private static void mainPrivateFunc() {
@@ -39,6 +39,7 @@ public class Main {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        mainFuncAboutC();
         System.out.println("private static void mainPrivateFunc() done!");
     }
 
