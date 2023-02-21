@@ -11,4 +11,8 @@ public class C {
     public void setCa(A ca) {
         this.ca = ca;
     }
+
+    public static void CFunc() {
+        new C().getCa().pubf2().pubf1();
+    }
 }
