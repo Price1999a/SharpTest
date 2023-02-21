@@ -44,6 +44,7 @@ public class Main {
 
     public static void mainFuncAboutC() {
         A a1 = c.getCa();
+        C.CFunc();
         c.setCa(new B());
     }
 }
