@@ -29,7 +29,7 @@ public class Main {
                 x.getAndIncrement();
             }
         });
-        thread.start();
+//        thread.start();
         try {
             thread.join();
         } catch (InterruptedException e) {

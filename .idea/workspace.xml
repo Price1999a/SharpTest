@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eefd5b48-73db-4fce-948f-36df57aa45b1" name="变更" comment="inc1" />
+    <list default="true" id="eefd5b48-73db-4fce-948f-36df57aa45b1" name="变更" comment="inc9">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676879974175</updated>
-      <workItem from="1676879975387" duration="991000" />
+      <workItem from="1676879975387" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676880663118</created>
@@ -83,7 +85,63 @@
       <option name="project" value="LOCAL" />
       <updated>1676880951912</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="inc2">
+      <created>1676881395422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881395422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="inc3">
+      <created>1676881425958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881425958</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inc4">
+      <created>1676881531335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881531335</updated>
+    </task>
+    <task id="LOCAL-00006" summary="inc5">
+      <created>1676881571336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881571336</updated>
+    </task>
+    <task id="LOCAL-00007" summary="inc6">
+      <created>1676881638373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881638373</updated>
+    </task>
+    <task id="LOCAL-00008" summary="inc7">
+      <created>1676881737639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881737639</updated>
+    </task>
+    <task id="LOCAL-00009" summary="inc8">
+      <created>1676881781028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881781028</updated>
+    </task>
+    <task id="LOCAL-00010" summary="inc9">
+      <created>1676882313179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676882313179</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +161,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="inc1" />
-    <option name="LAST_COMMIT_MESSAGE" value="inc1" />
+    <MESSAGE value="inc2" />
+    <MESSAGE value="inc3" />
+    <MESSAGE value="inc4" />
+    <MESSAGE value="inc5" />
+    <MESSAGE value="inc6" />
+    <MESSAGE value="inc7" />
+    <MESSAGE value="inc8" />
+    <MESSAGE value="inc9" />
+    <option name="LAST_COMMIT_MESSAGE" value="inc9" />
   </component>
 </project>
