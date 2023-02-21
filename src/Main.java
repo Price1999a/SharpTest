@@ -19,8 +19,8 @@ public class Main {
 //        if (main.a instanceof B) {
 //            ((B) main.a).setRe(false);
 //        }
-        mainPrivateFunc();
-        mainFuncAboutC();
+//        mainPrivateFunc();
+//        mainFuncAboutC();
 //        c.setCa(main.a.pubf2());
 //        main.a.pubf2().pubf1();
 //        main.a = c.getCa();
