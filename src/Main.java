@@ -1,11 +1,14 @@
 import cn.edu.nju.stq.A;
 import cn.edu.nju.stq.B;
+import cn.edu.nju.stq.C;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
     A a = new B();
     A a2 = new A();
+
+    protected static final C c = new C();
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
