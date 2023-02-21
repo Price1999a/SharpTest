@@ -11,10 +11,10 @@ public class Main {
     protected static final C c = new C();
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Main main = new Main();
-        main.a.pubf1();
-        main.a2.pubf2().pubf2().pubf1();
+//        System.out.println("Hello world!");
+//        Main main = new Main();
+//        main.a.pubf1();
+//        main.a2.pubf2().pubf2().pubf1();
 //        new Main().a2.pubf1();
 //        if (main.a instanceof B) {
 //            ((B) main.a).setRe(false);
